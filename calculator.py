@@ -31,5 +31,5 @@ def calculator():
         if choice == '5':
             print("Exit")
             break
-
-calculator()
+if __name__ == "__main__":
+    calculator()
